@@ -9,8 +9,7 @@
 # En este fichero se incluye el desarrollo del menú de la práctica.
 # ----------------------------------------------------------------
 
-from functions2 import *
-from functions import qui
+from functions import *
 
 # Main
 cleanTerminal()

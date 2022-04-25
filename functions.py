@@ -29,3 +29,13 @@ def extendedEuclides(base, module):
     z.append((-(x[it - 1] // x[it]) * z[it - 1] + z[it - 2]) % module)
     it += 1
   return z[len(z) - 1]
+
+# Implementa el cifrado del Gamal
+def elGamal(p, a, xa, xb, m):
+  ya = quickExp(a, xa, p)
+  yb = quickExp(a, xb, p)
+  k = quickExp(yb, xa, p)
+  c = (k * m) % p
+  kInverse = extendedEuclides(k, p)
+  mDesc = (kInverse * k * m) % p
+  return ya, yb, k, c, kInverse, mDesc
