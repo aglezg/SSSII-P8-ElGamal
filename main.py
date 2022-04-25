@@ -13,4 +13,4 @@ from functions import *
 
 # Main
 cleanTerminal()
-print("\n PRÁCTICA 8: Cifrado de ElGamal\n")  
+print("\n PRÁCTICA 8: Cifrado de ElGamal\n")

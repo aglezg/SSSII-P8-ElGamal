@@ -4,6 +4,16 @@ import os
 def cleanTerminal():
   os.system('cls' if os.name == 'nt' else 'clear')
 
+# Comprueba si un número es primo o no
+def isPrime(num):
+  if num > 1:
+    for n in range(2, num):
+      if (num % n) == 0:
+        return False
+    return True
+  else:
+    return False
+
 # Algoritmo de exponenciación rápida
 def quickExp(base, exp, module):
   x = 1
