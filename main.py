@@ -10,7 +10,7 @@
 # ----------------------------------------------------------------
 
 from functions2 import *
-from quickExp import quickExp
+from quickExp import qui
 import sys
 
 # Main
