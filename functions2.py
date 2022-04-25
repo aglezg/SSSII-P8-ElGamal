@@ -12,9 +12,6 @@
 
 import os
 
-# Limpia la pantalla de la terminal
-def cleanTerminal():
-  os.system('cls' if os.name == 'nt' else 'clear')
 
 # Formatea una matriz de hexadecimales, eliminando los '0x'
 def formatMatrix(matrix):

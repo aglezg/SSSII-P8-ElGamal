@@ -10,8 +10,7 @@
 # ----------------------------------------------------------------
 
 from functions2 import *
-from quickExp import qui
-import sys
+from functions import qui
 
 # Main
 cleanTerminal()
