@@ -10,8 +10,9 @@
 # ----------------------------------------------------------------
 
 from functions2 import *
+from quickExp import quickExp
 import sys
 
 # Main
 cleanTerminal()
-print("\n PRÁCTICA 8: Cifrado de ElGamal\n")
+print("\n PRÁCTICA 8: Cifrado de ElGamal\n")  
