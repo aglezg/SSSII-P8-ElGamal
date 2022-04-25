@@ -1,9 +1,9 @@
-# Práctica 7: Modos de cifrado en bloque
+# Práctica 8: Intercambio de claves de Diffie-Hellman y cifrado de ElGamal
 
 ## Información de la práctica
-* Prática implementada: [PRÁCTICA: RIJNDAEL](https://campusingenieriaytecnologia2122.ull.es/pluginfile.php/3595/mod_assign/intro/Practica8ModoCBC.pdf)
+* Prática implementada: [PRÁCTICA: RIJNDAEL](https://campusingenieriaytecnologia2122.ull.es/pluginfile.php/3610/mod_assign/intro/PracticaElGamal.pdf)
 * Lenguaje utilizado: Python
-* Fecha de entrega: 21/04/2022
+* Fecha de entrega: 28/04/2022
 
 ## Acerca de
 - Universidad de La Laguna (ULL)
