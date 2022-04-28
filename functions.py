@@ -59,5 +59,5 @@ def elGamal(p, a, xa, xb, m):
   assert(k == quickExp(ya, xb, p))
   c = (k * m) % p
   kInverse = extendedEuclides(k, p)
-  mDesc = (kInverse * k * m) % p
+  mDesc = (kInverse * c) % p
   return ya, yb, k, c, kInverse, mDesc
