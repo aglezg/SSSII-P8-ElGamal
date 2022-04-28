@@ -44,7 +44,8 @@ def extendedEuclides(base, module):
 def elGamal(p, a, xa, xb, m):
   ya = quickExp(a, xa, p)
   yb = quickExp(a, xb, p)
-  k = quickExp(yb, xa, p)
+  k = quickExp(yb, xa, p) # or quickExp(ya, xb, p)
+  assert(k == quickExp(ya, xb, p))
   c = (k * m) % p
   kInverse = extendedEuclides(k, p)
   mDesc = (kInverse * k * m) % p
